@@ -1,0 +1,18 @@
+﻿<Window x:Class="PracticaUsuarios.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaUsuarios"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="805.649">
+    <WrapPanel Orientation="Vertical" Margin="0,0,638,0">
+        <TextBlock>Nuevo Usuario</TextBlock>
+        
+        <ComboBox Name="Seleccionador" SelectionChanged="Seleccionador_SelectionChanged">
+            <ComboBoxItem>Alumno</ComboBoxItem>
+            <ComboBoxItem>Maestro</ComboBoxItem>
+        </ComboBox>
+        <WrapPanel Name="PanelConfiguracion"></WrapPanel>
+    </WrapPanel>
+</Window>
