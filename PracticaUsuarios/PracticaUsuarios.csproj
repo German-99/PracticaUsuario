@@ -58,6 +58,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ControlAlumno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlMaestro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Maestro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -72,6 +80,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ControlAlumno.xaml.cs">
+      <DependentUpon>ControlAlumno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMaestro.xaml.cs">
+      <DependentUpon>ControlMaestro.xaml</DependentUpon>
     </Compile>
     <Compile Include="Maestro.xaml.cs">
       <DependentUpon>Maestro.xaml</DependentUpon>

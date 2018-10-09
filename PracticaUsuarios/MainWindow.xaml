@@ -14,5 +14,6 @@
             <ComboBoxItem>Maestro</ComboBoxItem>
         </ComboBox>
         <WrapPanel Name="PanelConfiguracion"></WrapPanel>
+        <Button Margin="50,10,0,10" Name="btnGuardarUsuario" Click="btnGuardarUsuario_Click">Guardar</Button>
     </WrapPanel>
 </Window>

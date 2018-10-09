@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="PracticaUsuarios.Alumno"
+﻿<UserControl x:Class="PracticaUsuarios.ControlAlumno"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -7,17 +7,17 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <WrapPanel Orientation="Vertical" Background="White" Margin="0,0,-173,0">
-        <TextBlock Name="lblNombreAlumno">Nombre</TextBlock>
-        <TextBox Name="txtNombreAlumno" Width="200"></TextBox>
-        <TextBlock Name="lblDireccionAlumno">Direccion</TextBlock>
-        <TextBox Width="200" Name="txtDireccionAlumno"></TextBox>
-        <TextBlock Name="lblCarreraAlumno">Carrera</TextBlock>
-        <ComboBox Name="cbCarreraAlumno">
+        <TextBlock Name="lblNombreA" FontWeight="Bold">Nombre</TextBlock>
+        <TextBox Name="txtNombreA" Width="200"></TextBox>
+        <TextBlock Name="lblDireccionA" FontWeight="Bold">Direccion</TextBlock>
+        <TextBox Width="200" Name="txtDireccionA"></TextBox>
+        <TextBlock Name="lblCarreraA" FontWeight="Bold">Carrera</TextBlock>
+        <ComboBox Name="cbCarreraA">
             <ComboBoxItem>Ing. Multimedia</ComboBoxItem>
             <ComboBoxItem>Fisioterapia</ComboBoxItem>
             <ComboBoxItem>ing. Industrial</ComboBoxItem>
         </ComboBox>
-        <TextBlock Name="lblPreparatoriaProcedencia">Preparatoria de procedencia:</TextBlock>
-        <TextBox Width="200" Name="txtPreparatoriaProcedencia"></TextBox>
+        <TextBlock Name="lblPreparatoriaP" FontWeight="Bold">Preparatoria de procedencia:</TextBlock>
+        <TextBox Width="200" Name="txtPreparatoriaP"></TextBox>
     </WrapPanel>
 </UserControl>

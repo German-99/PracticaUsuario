@@ -7,14 +7,13 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <WrapPanel Orientation="Vertical" Background="White" Margin="0,0,-205,0">
-        <TextBlock>Nombre:</TextBlock>
-        <TextBox Width="200"></TextBox>
-        <TextBlock>Telefono:</TextBlock>
-        <TextBox Width="200"></TextBox>
-        <TextBlock>Cedula Profesional:</TextBlock>
-        <TextBox Width="200"></TextBox>
-        <TextBlock>Carrera estudiada:</TextBlock>
-        <TextBox Width="200"></TextBox>
-        <Button Width="100" Margin="150,0,0,0">Guardar</Button>
+        <TextBlock Name="lblNombreMaestro">Nombre:</TextBlock>
+        <TextBox Width="200" Name="txtNombreMaestro"></TextBox>
+        <TextBlock Name="lblTeldefonoMaestro">Telefono:</TextBlock>
+        <TextBox Width="200" Name="txtTelefonoMaestro"></TextBox>
+        <TextBlock Name="lblCedula">Cedula Profesional:</TextBlock>
+        <TextBox Width="200" Name="txtCedula"></TextBox>
+        <TextBlock Name="lblCarreraMaestro">Carrera estudiada:</TextBlock>
+        <TextBox Width="200" Name="txtCarrreraMaestro"></TextBox>
     </WrapPanel>
 </UserControl>
